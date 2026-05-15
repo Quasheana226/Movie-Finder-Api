@@ -7,7 +7,7 @@ require('dotenv').config();
 const express = require('express');
 
 //import the movie routet this file defines all the /search and /movies/id route 
-const movieRoutes = require("./src/routes/movieRoutes");
+const movieRoutes = require("./src/routes/movies");
 
 const app = express();
 
